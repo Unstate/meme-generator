@@ -1,0 +1,23 @@
+@import '../../styles/main.scss';
+
+.button {
+  padding: 18px 28px;
+  text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+  border:2px solid rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  background-color: $light-gray;
+  margin:4px;
+  width: 50%;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:$gray;
+}
+
+.isActive {
+  color: $blue;
+  border: 2px solid $blue;
+}
