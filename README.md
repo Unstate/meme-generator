@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+# Генератор Мемов
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Этот проект представляет собой приложение для создания мемов, которое позволяет пользователям создавать мемы из изображений в форматах JPG, GIF или PNG. Пользователи могут настраивать свои мемы, добавляя текст внутри или снаружи изображения.
 
-Currently, two official plugins are available:
+## Как запустить локально
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Для запуска Генератора Мемов локально выполните следующие шаги:
 
-## Expanding the ESLint configuration
+1. Клонируйте репозиторий с GitHub:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+git clone https://github.com/Unstate/meme-generator.git
 
-- Configure the top-level `parserOptions` property like this:
+2. Перейдите в директорию проекта:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+cd meme-generator
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. Установите зависимости с помощью npm или yarn:
+
+npm install
+или
+yarn install
+
+4. Запустите сервер разработки:
+
+npm run dev
+или
+yarn start
+
+5. Откройте свой веб-браузер и перейдите по адресу http://localhost:5173/, чтобы просмотреть Генератор Мемов.
+
+## Особенности
+
+- Загружайте изображения в форматах JPG, GIF или PNG.
+- Добавляйте текст внутри или снаружи изображения для создания мемов.
+- Настройте стили текста мема, такие как размер шрифта, цвет и выравнивание.
+- Сохраняйте созданные мемы локально.
+- Отзывчивый дизайн для различных размеров экрана.
+
+## Вклад в разработку
+
+Вклад в проект Генератора Мемов приветствуется! Вот как вы можете внести свой вклад:
+
+1. Форкните репозиторий.
+2. Создайте новую ветку (`git checkout -b feature-new-feature`).
+3. Внесите свои изменения.
+4. Зафиксируйте изменения (`git commit -am 'Add new feature'`).
+5. Отправьте изменения в ветку (`git push origin feature-new-feature`).
+6. Создайте новый Pull Request.
