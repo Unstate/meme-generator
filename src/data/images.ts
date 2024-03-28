@@ -1,0 +1,36 @@
+export type TImages = {
+  title: string,
+  href: string,
+}
+
+export const IMAGES: TImages[] = [
+  { title: "Ancient Aliens", href: "./images/Ancient_Aliens.jpg" },
+  { title: "Batman Slapping Robin", href: "./images/Batman_Slapping_Robin.jpg" },
+  { title: "Bernie I Am Once Again Asking For Your Support", href: "./images/Bernie_I_Am_Once_Again_Asking_For_Your_Support.jpg" },
+  { title: "Bike Fall", href: "./images/Bike_Fall.jpg" },
+  { title: "Boardroom Meeting Suggestion", href: "./images/Boardroom_Meeting_Suggestion.jpg" },
+  { title: "Change My Mind", href: "./images/Change_My_Mind.jpg" },
+  { title: "Clown Applying Makeup", href: "./images/Clown_Applying_Makeup.jpg" },
+  { title: "Disaster Girl", href: "./images/Disaster_Girl.jpg" },
+  { title: "Distracted Boyfriend", href: "./images/Distracted_Boyfriend.jpg" },
+  { title: "Drake Hotline Bling", href: "./images/Drake_Hotline_Bling.jpg" },
+  { title: "Epic Handshake", href: "./images/Epic_Handshake.jpg" },
+  { title: "Expanding Brain", href: "./images/Expanding_Brain.jpg" },
+  { title: "Gru's Plan", href: "./images/Gru's_Plan.jpg" },
+  { title: "Hide the Pain Harold", href: "./images/Hide_the_Pain_Harold.jpg" },
+  { title: "I Bet He's Thinking About Other Women", href: "./images/I_Bet_He's_Thinking_About_Other_Women.jpg" },
+  { title: "Left Exit 12 Off Ramp", href: "./images/Left_Exit_12_Off_Ramp.jpg" },
+  { title: "Marked Safe From", href: "./images/Marked_Safe_From.jpg" },
+  { title: "Mocking Spongebob", href: "./images/Mocking_Spongebob.jpg" },
+  { title: "Monkey Puppet", href: "./images/Monkey_Puppet.jpg" },
+  { title: "One Does Not Simply", href: "./images/One_Does_Not_Simply.jpg" },
+  { title: "Running Away Balloon", href: "./images/Running_Away_Balloon.jpg" },
+  { title: "Sad Pablo Escobar", href: "./images/Sad_Pablo_Escobar.jpg" },
+  { title: "Success Kid", href: "./images/Success_Kid.jpg" },
+  { title: "This Is Where I'd Put My Trophy If I Had One", href: "./images/This_Is_Where_I'd_Put_My_Trophy_If_I_Had_One.jpg" },
+  { title: "Two Buttons", href: "./images/Two_Buttons.jpg" },
+  { title: "UNO Draw 25 Cards", href: "./images/UNO_Draw_25_Cards.jpg" },
+  { title: "Woman Yelling At Cat", href: "./images/Woman_Yelling_At_Cat.jpg" },
+  { title: "X X Everywhere", href: "./images/X_X_Everywhere.jpg" },
+  { title: "Y'all Got Any More Of That", href: "./images/Y'all_Got_Any_More_Of_That.jpg" }
+]
