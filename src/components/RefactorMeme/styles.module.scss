@@ -1,0 +1,87 @@
+@import '../../styles/main.scss';
+
+.refactorMemeWrapper {
+
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
+  flex:1;
+
+  @media screen and (max-width:767px) {
+    grid-template-columns: 1fr;
+  }
+
+  .memeWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $light-gray;
+    
+    @media screen and (max-width:767px) {
+      padding:24px;
+      padding-top: 130px;
+      justify-content: flex-start;
+    }
+
+    .textOutside {
+      width: 100%;
+      height: 100px;
+      background-color: $white;
+    }
+
+    .meme {
+      max-width: 600px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .settingsButton {
+    position: fixed;
+    top:5%;
+    right: 5%;
+    background-color: white;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.14);
+    border-radius: 50vw;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+
+    @media (min-width: 767px) {
+      display: none;
+    }
+  }
+
+  .activeModal {
+    right: 70%;
+  }
+
+  .modal {
+    width: 70vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: red;
+    transition: all 0.3s; 
+  }
+  
+  .showModal {
+    right: 0%;
+  }
+
+  .generateButton {
+    position: absolute;
+    z-index:111111;
+    bottom: 3%;
+    right: 3%;
+    @media screen and (min-width:767px) {
+      display: none;
+    }
+  }
+
+}
