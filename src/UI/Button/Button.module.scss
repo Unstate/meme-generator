@@ -1,0 +1,16 @@
+@import '../../styles/main.scss';
+
+.button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border:2px solid $blue;
+  background-color: $blue;
+  color:$white;
+  font-size:1rem;
+  transition: all $transition-duration;
+
+  &:hover {
+    color:$blue;
+    background-color: $white;
+  }
+}
