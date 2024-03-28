@@ -1,0 +1,28 @@
+@import './colors.scss';
+@import './mixins.scss';
+@import './reset.scss';
+@import './width.scss';
+
+
+/* Стили для полосы прокрутки */
+::-webkit-scrollbar {
+  width: 8px; /* Ширина полосы прокрутки */
+}
+
+/* Стили для дорожки полосы прокрутки */
+::-webkit-scrollbar-track {
+  background-color: rgba($color: $base-black, $alpha: .2); /* Цвет фона дорожки */
+  border-radius: 3px; /* Закругление краев дорожки */
+}
+
+/* Стили для ползунка полосы прокрутки */
+::-webkit-scrollbar-thumb {
+  background-color: $blue; /* Цвет ползунка */
+  border-radius: 3px; /* Закругление краев ползунка */
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  // border: 1px solid red;
+  box-sizing: border-box;
+}
