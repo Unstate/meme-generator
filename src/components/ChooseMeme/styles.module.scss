@@ -1,0 +1,66 @@
+@import '../../styles/main.scss';
+
+.title {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px;
+  padding-top:70px;
+  
+  &>h1 {
+    font-weight: 700;
+    font-size:2rem;
+    margin-bottom:1rem;
+  }
+  
+  &>p {
+    font-size:1rem;
+    line-height: 1.3rem;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+.buttons {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px;
+
+  .button {
+    color:$blue;
+    background-color: $white;
+    border: 2px solid $blue;
+
+    &:hover {
+      color:$white;
+      background-color: $blue;
+    }
+  }
+}
+
+.memesContainer {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  max-width: 500px;
+  width: 100%;
+
+  .memeWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    padding:10px 0 0 0;
+    cursor: pointer;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
+
+    .memeImage {
+      width:100% ;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
